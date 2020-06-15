@@ -1,0 +1,37 @@
+{
+  "name": "mc",
+  "version": "1.0.0",
+  "description": "submission dicoding BFFEWD - movie catalog from themoviedb.org",
+  "main": "index.js",
+  "scripts": {
+    "dev-build": "webpack-dev-server --config webpack.dev.js --open",
+    "build": "webpack --config webpack.prod.js --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramadoiranedar/mc.git"
+  },
+  "author": "ramadoiranedar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramadoiranedar/mc/issues"
+  },
+  "homepage": "https://github.com/ramadoiranedar/mc#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "babel-loader": "^8.1.0",
+    "bootstrap": "^4.5.0",
+    "css-loader": "^3.6.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "regenerator-runtime": "^0.13.5",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^4.2.2"
+  }
+}
